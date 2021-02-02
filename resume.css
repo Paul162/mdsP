@@ -1,0 +1,40 @@
+a:hover{color: red;}
+
+html{
+	background: no-repeat url("paulapostle.jpg");
+	margin-left: auto;
+	margin-right: auto;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	}
+
+body{
+	margin-top: 150px;
+	margin-left: 450px;
+	margin-right: 450px;
+	border-radius: 20px;
+	text-align: center;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	background-color: rgba(255,255,255,0.75);
+}
+
+@media screen and (max-width: 700px){
+	a:hover{color: red;}
+	.bas{ display: none;}
+	.photo{ display: none;}
+	body{
+		padding-bottom: 20px;
+	}
+
+}
+
+ ol,ul{
+	display: inline-block;
+	padding-left: 40px;
+} 
+a{
+	outline: none;
+	text-decoration: none;
+}
